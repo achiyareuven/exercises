@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace exercises
 {
-    internal class IpositiveAcount
+    public interface IAcount
     {
+        double GetBalnce();
     }
 }

@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace exercises
 {
-    internal class PositiveAcount
+    public class PositiveAcount : IAcount
     {
+        public double CashBalance { get; set; }
+
+        public PositiveAcount(double cash)
+        {
+            CashBalance = cash;
+        }
+        public double GetBalnce() => CashBalance;
     }
+
 }
