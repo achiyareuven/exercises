@@ -1,0 +1,29 @@
+﻿# Build folders
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Test results
+TestResults/
+
+# Rider/Resharper
+.idea/
+_ReSharper*/
+
+# Database
+*.mdf
+*.ldf
+
+# Caches
+*.cache
